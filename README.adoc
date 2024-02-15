@@ -5,16 +5,18 @@
 
 * Overview for `min` projects.
 * `min` projects are meant to be reusable and KISS.
-* States: 🔃 in use, 🤔 phase out, 🕸️ EoL.
+* States: ⛓️ in use, ⏰ phase out, 🕸️ EoL.
 
 [cols="3,1,8"]
 |===
 | Project | State | Description
-| https://github.com/IO42630/min-bom[`min-bom`] | 🔃 | Bill of Materials POM.
-| https://github.com/IO42630/min-root[`min-root`] | 🔃 | Parent POM.
-| https://github.com/IO42630/min-convert-tools[`min-convert-tools`]  | 🔃 | Scripts for converting between formats.
-| https://github.com/IO42630/min-http-server[`min-http-server`] | 🤔 | Simple HTTP server.
-| https://github.com/IO42630/min-log[`min-log`] | 🔃 | Pretty log printing.
-| https://github.com/IO42630/min-lock[`min-lock`] | 🔃 | Wraps `File`/`FileChannel` for convenience.
+| https://github.com/IO42630/min-bom[`min-bom`] | ⛓️ | Bill of Materials POM.
 | https://github.com/IO42630/min-db[`min-db`] | 🕸️ | Wraps H2 for convenience.
+| https://github.com/IO42630/min-convert-tools[`min-convert-tools`]  | ⛓️ | Scripts for converting between formats.
+| https://github.com/IO42630/min-copy-tools[`min-copy-tools`]  | ⛓️ | Scripts for file-tree management.
+| https://github.com/IO42630/min-http-server[`min-http-server`] | ⏰ | Simple HTTP server.
+| https://github.com/IO42630/min-lock[`min-lock`] | ⛓️ | Wraps `File`/`FileChannel` for convenience.
+| https://github.com/IO42630/min-log[`min-log`] | ⛓️ | Pretty log printing.
+| https://github.com/IO42630/min-prop[`min-prop`] | ⛓️️ | Wraps `Properties` for convenience.
+| https://github.com/IO42630/min-root[`min-root`] | ⛓️ | Parent POM.
 |===
